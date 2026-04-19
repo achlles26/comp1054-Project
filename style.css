@@ -38,6 +38,11 @@ a {
   color: lime;
 }
 
+p {
+
+  line-height: 2rem;
+}
+
 nav {
   grid-area: nav;
   background-color: #ccc;
@@ -148,5 +153,10 @@ svg {
 
   body aside:nth-of-type(2) {
     width: 100vw;
+  }
+
+  p {
+
+    line-height: 1.5rem;
   }
 }
