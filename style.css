@@ -26,8 +26,7 @@ header div {
   background-color: navy;
   color: white;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   padding: 2rem;
   border: 2px solid lime;
@@ -89,11 +88,31 @@ body aside:nth-of-type(1) {
 body aside:nth-of-type(2) {
   width: 50vw;
   grid-area: aside2;
+  background-color: #A9A9A9;
+  color: white;
+}
+
+body > footer {
+  grid-area: footer;
   background-color: navy;
   color: white;
 }
 
-footer {
+body > footer div {
 
-  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid lime;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+}
+
+aside div ul {
+
+  list-style: none;;
+}
+
+svg {
+
+  height: 10vh;
 }
