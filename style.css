@@ -116,3 +116,37 @@ svg {
 
   height: 10vh;
 }
+
+@media only screen and (max-width: 468px) {
+
+  body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul li {
+
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  svg {
+
+    height: 5vh;
+  }
+
+  body aside:nth-of-type(1) {
+    width: 100vw;
+  }
+
+  body aside:nth-of-type(2) {
+    width: 100vw;
+  }
+}
